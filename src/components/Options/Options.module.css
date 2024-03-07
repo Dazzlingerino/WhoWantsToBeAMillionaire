@@ -1,0 +1,22 @@
+.optionsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.optionContent {
+  position: absolute;
+  left: 11%;
+  display: flex;
+  gap: 8px;
+}
+
+.optionLetter {
+  color: var(--orange-100);
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1160px) {
+  .optionsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

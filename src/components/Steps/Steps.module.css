@@ -1,0 +1,11 @@
+.stepsContainer {
+  display: flex; 
+  flex-direction: column;
+
+}
+
+@media screen and (min-width: 781px) {
+  .stepsContainer {
+    background-color: var(--white-100);
+  }
+}

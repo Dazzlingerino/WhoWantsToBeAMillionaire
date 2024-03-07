@@ -1,0 +1,81 @@
+.optionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0.25rem 0;
+}
+
+.optionContainer:has(.inactive):hover path,
+.optionContainer:has(.inactive):hover div {
+  fill: var(--white-100);
+  background-color: var(--white-100);
+  stroke: var(--orange-100);
+  cursor: pointer;
+}
+
+.optionContent {
+  position: absolute;
+  left: 11%;
+  display: flex;
+  gap: 8px;
+}
+
+.optionContainer:has(.inactive):active path,
+.optionContainer:has(.inactive):active div {
+  background-color: var(--orange-5);
+  fill: var(--orange-5);
+}
+
+.optionLetter {
+  color: var(--orange-100);
+  pointer-events: none;
+}
+
+.inactive {
+  border-color: var(--black-40);
+  background-color: var(--white-100);
+}
+
+.correct {
+  border-color: var(--green-100); 
+  background-color: var(--green-5);
+}
+
+.wrong {
+  border-color: var(--red-100); 
+  background-color: var(--red-5);
+}
+
+.disableClick {
+  pointer-events: none;
+}
+
+@media screen and (min-width: 781px) {
+  .optionContainer {
+    margin: 1rem 0;
+  }
+
+  .optionContainer svg {
+    width: 389px;
+    height: 72px;
+  }
+}
+
+@keyframes blinkCorrect {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes blinkIncorrect {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.correctBlink {
+  animation: blinkCorrect 0.6s 3;
+}
+
+.incorrectBlink {
+  animation: blinkIncorrect 0.6s 3;
+}

@@ -1,0 +1,71 @@
+.gameContainer {
+  display: flex;
+}
+
+.menuButton {
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.leftSideContainer,
+.rightSideContainer {
+  display: none;
+}
+
+.rightSideContainer.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 660px;
+  gap: 4rem;
+  flex: 1 0;
+  height: 100vh;
+  background: var(--black-5);
+}
+
+.leftSideContainer.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  height: 100vh;
+  padding: 5rem 1rem 3rem;
+  overflow: hidden;
+  background: var(--black-5);
+}
+
+@media screen and (min-width: 635px) {
+  .menuButton {
+    display: none;
+  }
+  
+  .gameContainer {
+    .leftSideContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      width: 100%;
+      height: 100vh;
+      padding: 5rem 1rem 3rem;
+      position: relative;
+      overflow: hidden;
+      background: var(--black-5);
+    }
+
+    .rightSideContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 660px;
+      gap: 4rem;
+      flex: 1 0;
+      background: var(--white-100);
+    }
+  }
+}

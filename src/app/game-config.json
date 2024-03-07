@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How old your elder brother was 10 years before you was born, mate?",
+    "options": ["10 years", "11 years", "12 years", "14 years"],
+    "correct": [2],
+    "prize": 500
+  },
+  {
+    "question": "Why did the bicycle collapse?",
+    "options": ["Two-tired", "Broke down", "Cycle-path", "Weak frame"],
+    "correct": [0],
+    "prize": 1000
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correct": [2],
+    "prize": 2000
+  },
+  {
+    "question": "What is the largest ocean in the world?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "correct": [3],
+    "prize": 4000
+  },
+  {
+    "question": "What is the largest planet in the solar system?",
+    "options": ["Mars", "Jupiter", "Saturn", "Neptune"],
+    "correct": [1],
+    "prize": 8000
+  },
+  {
+    "question": "What is the most popular drink in the world?",
+    "options": ["Tea", "Coffee", "Water", "Coca-Cola"],
+    "correct": [2],
+    "prize": 16000
+  },
+  {
+  "question": "What do you call an alligator in a vest?",
+    "options": ["An investigator", "A crocodile", "A reptile", "A blizzard-lizard"],
+    "correct": [0],
+    "prize": 32000
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "options": ["Sahara", "Gobi", "Antarctica", "Arabian"],
+    "correct": [2],
+    "prize": 64000
+  },
+  {
+    "question": "What is the largest mountain in the world?",
+    "options": ["K2", "Mount Everest", "Chomolungma", "Lhotse"],
+    "correct": [1,2],
+    "prize": 125000
+  },
+  {
+    "question": "What is the largest river in the world?",
+    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "correct": [0],
+    "prize": 250000
+  },
+  {
+    "question": "What is the largest lake in the world?",
+    "options": ["Caspian Sea", "Lake Superior", "Lake Victoria", "Lake Baikal"],
+    "correct": [0],
+    "prize": 500000
+  },
+  {
+    "question": "What is the largest island in the world?",
+    "options": ["New Guinea", "Greenland",  "Borneo", "Madagascar"],
+    "correct": [1],
+    "prize": 1000000
+  }
+]

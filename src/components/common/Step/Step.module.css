@@ -1,0 +1,34 @@
+.stepContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0.25rem 0;
+}
+
+.stepContainer span {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+}
+
+.completed span,
+.completed path {
+  stroke: var(--black-40);
+  color: var(--black-40);
+  border-color: var(--black-40);
+}
+
+.active span,
+.active path {
+  stroke: var(--orange-100);
+  color: var(--orange-100);
+  border-color: var(--orange-100);
+}
+
+@media screen and (min-width: 781px) {
+  .stepContainer svg {
+    width: 376px;
+    height: 40px;
+  }
+}
